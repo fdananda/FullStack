@@ -1,0 +1,25 @@
+<h2>Lista Não ordenada</h2>
+		<ul type="square">
+			<!-- tipos (type) existentes: circle, disc (padrão), none, square -->
+			<li>Item de lista não ordenada 1</li>
+			<li>Item de lista não ordenada 2</li>
+			<li>Item de lista não ordenada 3</li>
+			<li>Item de lista não ordenada 4</li>
+			<li>Item de lista não ordenada 5</li>
+		</ul>
+
+		<h2>Lista ordenada</h2>
+		<ol type="A">
+			<!-- tipos (type) existentes: 
+				letra maiúscula (A, B, C, D),
+				letra minúscula (a, b, c, d),
+				números (1, 2, 3, 4) - padrão,
+				romano maiúsculo (I, II, III, IV),
+				romano minúsculo (i, ii, iii, iv), 
+			  -->
+			<li>Item de lista ordenada 1</li>
+			<li>Item de lista ordenada 2</li>
+			<li>Item de lista ordenada 3</li>
+			<li>Item de lista ordenada 4</li>
+			<li>Item de lista ordenada 5</li>
+		</ol>
