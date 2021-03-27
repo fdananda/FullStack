@@ -1,0 +1,24 @@
+<table border="1" width="80%">
+			<tr> <!-- Linha da Tabela -->
+				<th>Cabeçalho da Coluna 1 da linha 1</th> <!--Cabeçalho da tabela -->
+				<th>Cabeçalho da Coluna 2 da linha 1</th>
+				<th>Cabeçalho da Coluna 3 da linha 1</th>
+			</tr>
+			<tr> <!-- Linha da Tabela -->
+				<td>Coluna 1 da linha 2</td> <!--Colunas das tabelas -->
+				<td>Coluna 2 da linha 2</td>
+				<td>Coluna 3 da linha 2</td>
+			</tr>
+			<tr> <!-- Linha da Tabela -->
+				<td>Coluna 1 da linha 3</td> <!--Colunas das tabelas -->
+				<td>Coluna 2 da linha 3</td>
+				<td>Coluna 3 da linha 3</td>
+			</tr>
+			<tr> <!-- Linha da Tabela -->
+				<td rowspan="2">Coluna 1 das linha 4 e 5</td> <!--Colunas das tabelas -->
+				<td colspan="2">Colunas 2 e 3 da linha 4</td>
+			</tr>
+			<tr> <!-- Linha da Tabela -->
+				<td colspan="2">Colunas 2 e 3 da linha 5</td><!--Colunas das tabelas -->
+			</tr>
+	</table>
