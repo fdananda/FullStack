@@ -1,0 +1,4 @@
+<p style="color: red;">
+<!-- Dentro da tag HTML, usa o atributo style, sinal de igual (=), 
+     dentro a propriedade (color, por exemplo), dois pontos(:), 
+     valor (red, por exemplo) e ponto-e-vírgula -->
