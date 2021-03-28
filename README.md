@@ -11,4 +11,9 @@
 <li>Links (27/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/Links</li>
 <li>Tabelas (27/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/Tabelas</li>
 <li>Formulários (27/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/Formularios</li>
+<li>Caracteres Especiais (28/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/CaracteresEspeciais</li>
+
+<h4>CSS 3.0</h4>
+<li>Inline Style (28/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/InLineStyle</li>
+<li>Internal Style Sheet / Seletor (28/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/InternalStyleSheet</li>
   
