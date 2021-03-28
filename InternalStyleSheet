@@ -1,0 +1,20 @@
+<head>
+	<title>Internal Style Sheet</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		p {
+			font-family: Calibri;
+			font-size: 16px;
+			font-weight: bold;
+			color: gray;
+			text-align: justify;
+		  }
+		h1 {
+			color: green;
+			font-family: Arial;
+		  }
+	</style>
+  <!-- Formato dentro da tag style type="text/css": seletor (p), c
+  have de abertura({), propriedade(color), dois pontos(:), 
+  valor(red), ponto-e-vírgula(;), chave de fechamento(}) -->
+</head>
