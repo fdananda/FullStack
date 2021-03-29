@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Div e Span</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+        
+        #idDiv{
+            background: blue;
+        }
+        
+        #idSpan{
+            background: red;
+        }
+        
+        .classDiv{
+            background: pink;
+        }
+        
+        .classSpan{
+            background: gray;
+        }
+  </style>
+</head>
+<body>
+    <!-- div - Usada para dividir o site em conteúdos para formatar com CSS. 
+         Utiliza todo o espaçamento (largura) da tela, ou seja, é um elemento do tipo block -->
+    <div id="idDiv">
+      Texto com background blue em função do idDiv
+    </div>
+    <div class="classDiv">
+      Texto com background pink em função da classDiv
+    </div>
+   
+    <!-- span - Usado para formatar com CSS em elementos específicos. 
+         Utiliza apenas o espaço do elemento que está modificando -->
+    <p>Apenas <span id="idSpan">essa parte</span> da linha será modificada pelo span idSpan</p>
+    <p>Apenas <span class="classSpan">essa parte</span> da linha será modificada pela class classSpan</p>
+
+</body>
+</html>
