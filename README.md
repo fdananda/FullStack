@@ -16,4 +16,6 @@
 <h4>CSS 3.0</h4>
 <li>Inline Style (28/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/InLineStyle</li>
 <li>Internal Style Sheet / Seletor (28/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/InternalStyleSheet</li>
+<li>Seletores, Classes e IDs (29/03/2021)<br>https://github.com/fdananda/WebFullStack/blob/main/SeletorClassesIDs</li>
+<li>Div e Span (29/03/2021)<br>https://github.com/fdananda/WebFullStack/blob/main/DivSpan</li>
   
