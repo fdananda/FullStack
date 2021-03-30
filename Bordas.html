@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bordas</title>
+	<meta charset="utf-8">
+    <!-- Na propriedade border, pode-se definir três atributos de uma vez:
+         espessura da borda (ex.: 1px);
+         tipo (ex.: solid);
+         cor (ex: red);
+    -->
+    <!-- Valores para o tipo de borda:
+
+        dashed - borda tracejada
+        dotted - borda pontilhada
+        double - borda dupla
+        groove - borda 3D. O efeito depende do valor da cor da borda
+        hidden - borda oculta
+        inset  - borda de inserção 3D. O efeito depende do valor da cor da borda
+        none   - sem borda
+        outset - borda de início 3D. O efeito depende do valor da cor da borda
+        ridge  - borda 3D estriada. O efeito depende do valor da cor da borda
+        solid  - borda sólida
+
+    Fonte: https://www.w3schools.com/css/css_border.asp
+    -->
+	<style type="text/css">
+        #modelo{
+            border: 3px double red;                     /* formatações gerais */
+            border-color: red greenyellow yellow blue;  /* cor */
+            border-width: 3px 5px 3px 5px;              /* espessura da borda */
+            border-style: solid dashed double dotted;   /* tipo da borda */   
+            padding: 5px;
+                
+        }	
+	</style>
+</head>
+<body>
+    <div id="modelo">
+        Texto com borda
+    </div>
+</body>
+</html>
