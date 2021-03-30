@@ -18,4 +18,5 @@
 <li>Internal Style Sheet / Seletor (28/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/InternalStyleSheet</li>
 <li>Seletores, Classes e IDs (29/03/2021)<br>https://github.com/fdananda/WebFullStack/blob/main/SeletorClassesIDs</li>
 <li>Div e Span (29/03/2021)<br>https://github.com/fdananda/WebFullStack/blob/main/DivSpan</li>
-  
+<li>Bordas (30/03/2021)<br>https://github.com/fdananda/WebFullStack/blob/main/Bordas</li> 
+<li>Fontes (30/03/2021)<br>https://github.com/fdananda/WebFullStack/blob/main/Fontes</li> 
