@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fontes</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+        .texto {
+            color: blueviolet;      /* color: pode ser o nome da cor ou o código hexadecimal */
+            font-size: 15px;        /* font-size: tamanho da fonte em pixel */
+            font-family: Arial, Verdana, Helvetica, sans-serif; 
+            /* famílias ou fontes específicas. Fontes com mais de um nome usa-se aspas duplas na definição */
+        }
+	</style>
+    
+    <!-- Exemplos de fontes genéricas e específicas:
+
+    Serif:	     Times New Roman, Georgia, Garamond;
+    Sans-serif:	 Arial, Verdana, Helvetica;
+    Monospace: 	 Courier New, Lucida Console, Monaco;
+    Cursive:	 Brush Script MT, Lucida Handwriting;
+    Fantasy:  	 Copperplate, Papyrus
+    
+    Fonte: https://www.w3schools.com/css/css_font.asp
+    -->
+    
+</head>
+<body>
+    <p class="texto">Texto formatado com a cor blueviolet, tamanho 15px e font-family Arial (ou Verdana ou Helvetica ou alguma fonte da família sans-serif existente no computador do usuário).</p>  
+</body>
+</html>
