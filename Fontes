@@ -6,7 +6,27 @@
 	<style type="text/css">
         .texto {
             color: blueviolet;      /* color: pode ser o nome da cor ou o código hexadecimal */
-            font-size: 15px;        /* font-size: tamanho da fonte em pixel */
+            font-size: 15px;        
+	    /*
+            cm --> medida fixa em cm
+            px --> medida fixa em px;
+            %  --> tamanho relativo ao container pai em porcentagem;
+            em --> tamanho relativo ao container pai
+            medium	 --> tamanho médio. Este é o padrão	
+            xx-small --> tamanho extra, extra pequeno	
+            x-small  --> tamanho extra pequeno	
+            small    --> tamanho pequeno	
+            large	 --> tamanho grande	
+            x-large	 --> tamanho extra grande	
+            xx-large --> tamanho extra, extra grande	
+            smaller  --> tamanho menor do que o do container pai	
+            larger	 --> tamanho maior do que o do container pai	
+            initial	 --> tamanho padrão inicial
+            inherit	 --> herda a propriedade do elemento pai
+            
+            Fonte: https://www.w3schools.com/cssref/pr_font_font-size.asp
+            
+            */
             font-family: Arial, Verdana, Helvetica, sans-serif; 
             /* famílias ou fontes específicas. Fontes com mais de um nome usa-se aspas duplas na definição */
         }
