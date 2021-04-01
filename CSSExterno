@@ -1,0 +1,30 @@
+Arquivo estilo.css:
+p {
+	color: red;
+	}
+h1 {
+		color: green;
+		font-family: Arial;
+	}
+.azul {
+		color: blue;
+	}
+#principal{
+	color: gray;
+	}
+  
+Arquivo index.html:
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Estilo CSS Externo</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<h1>Texto de H1 em fonte Arial verde</h1>
+    	<p>Texto de parágrafo em vermelho</p>
+    	<p class="azul">Texto de parágrafo em azul com uso de class</p>
+    	<p id="principal">Texto de parágrafo em cinza com uso de id</p>
+	</body>
+</html>
