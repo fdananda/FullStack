@@ -30,6 +30,44 @@
             font-family: Arial, Verdana, Helvetica, sans-serif; 
             /* famílias ou fontes específicas. Fontes com mais de um nome usa-se aspas duplas na definição */
         }
+	.negrito{
+            /* 
+            normal
+            bold
+            bolder
+            lighter
+            de 100 a 900
+            initial
+            inherit
+            Fonte: https://www.w3schools.com/cssref/pr_font_weight.asp
+            */
+            font-weight:bold;
+        }
+        .italico{
+            /* 
+            normal
+            italic
+            oblique
+            initial
+            inherit
+            Fonte: https://www.w3schools.com/cssref/pr_font_font-style.asp
+            */
+            font-style:italic;
+        }
+        .textdecoration{
+            /* 
+            inherit
+            line-through
+            none
+            overline
+            underline
+            Fonte: https://www.w3schools.com/cssref/pr_font_weight.asp
+            */
+            text-decoration: underline;
+        }
+        .font{
+            font: bold 40px Arial;
+        }
 	</style>
     
     <!-- Exemplos de fontes genéricas e específicas:
@@ -45,6 +83,11 @@
     
 </head>
 <body>
-    <p class="texto">Texto formatado com a cor blueviolet, tamanho 15px e font-family Arial (ou Verdana ou Helvetica ou alguma fonte da família sans-serif existente no computador do usuário).</p>  
+    <p class="texto">Texto formatado com a cor blueviolet, tamanho 15px e font-family Arial (ou Verdana ou Helvetica ou alguma fonte da família sans-serif existente no computador do usuário).</p> 
+    <p class="negrito">Texto negrito</p>
+    <p class="italico">Texto italico</p>
+    <p class="textdecoration">Texto com linha</p>
+    <p class="font">Com várias formatações</p>
+    <p>Texto normal</p>
 </body>
 </html>
