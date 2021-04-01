@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cor e Imagem de Fundo</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body {
+			background-color: #f2f2f2;
+			background-image: url("imagens/fundo.png");
+			/* 
+			repeat
+			repeat-x
+			repeat-y
+			no-repeat
+			*/
+			background-repeat: repeat-x;
+			/* 
+			fixed - Imagem é fixada como plano de fundo. A imagem não rola.
+			scroll - Imagem é móvel e rola com a página
+			*/
+			background-attachment: fixed; 
+			/* 
+			Pode ter mais de um valor, sendo um primeiro na horizontal e o segundo na vertical.
+			Valores possíveis na horizontal:
+			center
+			left
+			right
+			Valores possíveis na vertical:
+			top
+			bottom;
+
+			*/
+			background-position: right center;	}
+		.shorthandBody {
+			/* Especifica todas as propriedades de uma só vez na seguinte ordem:
+			- background-color
+			- background-image
+			- background-repeat
+			- background-attachment
+			- background-position
+			*/
+			background: #f2f2f2 url('imagens/fundo.png') repeat-x fixed left top;
+      
+      /* Fonte: https://www.w3schools.com/css/css_background.asp*/
+		}
+	</style>
+</head>
+<body class="shorthandBody">
+	<p>Texto da página</p>
+</body>
+</html>
