@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Float e Clear</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		#principal{
+			border: 1px solid #D2B48C;
+			background: #FFFAF0;
+		}
+
+		.float{
+			background: #c2c2b2;
+			border: 1px solid gray;
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			/* float: faz com que os elementos flutuem, isto é, ficam fora do fluxo. Pode ser left, right ou none */
+			float: left;
+		}
+
+		.clear{
+			/* clear: limpa o direcionamento dos elementos flutuem. Pode ser both, left, right ou none */
+			clear: left;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="principal">
+		<div class="float">Div com uso do float</div>
+		<div class="float">Div com uso do float</div>
+		<div class="float">Div com uso do float</div>
+		<!-- A div abaixo, com a class clear, faz com que a div com id principal apareça. 
+			Caso não tivesse sido criada, não apareceria preenchida -->
+		<div class="clear">Div com uso do clear</div>
+	</div>
+
+	<p class="clear">
+		Parágrafo com uso do clear.
+	</p>
+</body>
+</html>
