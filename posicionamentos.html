@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Posicionaments</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		body {
+			background: gray;
+		}
+		
+		#container {
+			background: #fff;
+			width: 800px;
+			margin: 10px auto;
+			padding: 10px;
+			position: relative;
+		}
+
+		/* Position:
+			- static - é o posicionamento padrão;
+			- relative - baseado na posição inicial do elemento. É necessário usar propriedades de deslocamento (top, right, bottom, left), cujo valor pode ser netaivo ou positivo;
+			- absolute - o elemento sai do fluxo normal da página e os demais seguem no fluxo. É posicionado com relação ao elemento pai, desde que esse possua um poscionamento definido; se não possuir, será com relação à página.
+			- fixed - posicionamento semelhante ao absolute, porém fica fixo em relação à janela ao invés da página, não descendo no scroll e ficando sempre visível.
+			*/
+		
+		.static {
+			border: 1px solid gray;
+			position: static;
+			background: #ADD8E6;
+			width: 300px;
+			padding: 10px;
+		}
+
+		.relative{
+			border: 1px solid gray;
+			position: relative;
+			top: 10px;
+			left: 30px;
+			width: 300px;
+			background: #F5DEB3;
+			padding: 10px;
+		}
+
+		.absolute {
+			border: 1px solid gray;
+			background: #c2c2c2;
+			position: gray;
+			top: 80px;
+			right: 20px;
+			width: 300px;
+			padding: 10px;
+		}
+
+		.fixed {
+			border: 1px solid gray;
+			background: #FFA500;
+			position: absolute;
+			top: 150px;
+			left: 400px;
+			width: 300px;
+			padding: 10px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="container">
+		<h1>Posicionamentos</h1>
+		<p class="static">Parágrafo com a class static.</p>
+		<p class="relative">Parágrafo com a class relative, com deslocamento superior de 10px e esquerdo de 30px.</p>
+		<p class="absolute">Parágrafo com a class absolute, com deslocamento superior de 80px e direito de 20px.</p>
+		<p class="fixed">Parágrafo com a class fixed, com deslocamento superior de 150px e esquerdo de 400px.</p>
+	</div>
+
+</body>
+</html>
