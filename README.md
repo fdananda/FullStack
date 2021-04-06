@@ -25,3 +25,6 @@
 <li>Espaçamentos (03/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/espacamentos.css</li> 
 <li>Elementos Flutuantes (03/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/elementos_flutuantes.html</li> 
 <li>Display (04/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/display.html</li> 
+<li>Posicionamentos (05/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/posicionamentos.html</li> 
+<li>Sobreposição (06/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/sobreposicao.html</li> 
+<li>Links (05/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/links.html</li> 
