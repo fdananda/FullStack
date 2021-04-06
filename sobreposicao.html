@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sobreposição</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		/* z-index: define a ordem de empilhamento de um elemento.    Quanto maior o número mais acima ele aparecerá com relação aos demais*/
+		.bloco1 {
+			border: 1px solid gray;
+			background: #FFD700;
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			z-index: 0;
+			padding: 10px;
+		}
+		.bloco2 {
+			border: 1px solid gray;
+			background: #FFFF00;
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			top: 80px;
+			left: 80px;
+			z-index: 1;
+			padding: 10px;
+		}
+		.bloco3 {
+			border: 1px solid gray;
+			background: #F0E68C;
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			top: 160px;
+			left: 160px;
+			z-index: 2;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="bloco1">Bloco 1 com z-index 0. É o número mais baixo e fica atrás.</div>
+	<div class="bloco2">Bloco 2 com z-index 1. É o número intermediário e fica no meio.</div>
+	<div class="bloco3">Bloco 3 com z-index 2. É o número mais alto e fica à frente.</div>
+
+</body>
+</html>
