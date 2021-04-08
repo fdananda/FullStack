@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seletores, Classes e IDs</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		/* *{} Seletor Universal */
+		* {
+			font-family: Helvetica;
+			font-size: 14px;
+		}
+		/* p{} Seletor de Texto */
+		p {
+			color: gray;
+		}
+
+		/* .class{} Seletor de classe */
+		.red {
+			color: red;
+		}
+
+		p.red {
+			color: red;
+		}
+
+		/* #id{} Seletor de ID */
+		#blue{
+			color: blue;
+
+		}
+
+		/* li>a{} Seletor de filho */
+		li>a{
+			color: red;
+			text-decoration: none;
+		}
+
+
+		/* li b{} Seletor de descente */
+		li b {
+			color: green;
+		}
+
+		/* h1+p{} Seletor irmão adjascente */
+		h1+p {
+			color: orange;
+		}
+
+		/* h2~p{} Seletor irmão geral */
+		h2~p{
+		color: pink;
+		}
+
+
+	</style>
+</head>
+<body>
+	Texto com o seletor universal * com fonte-size de 14px e font-family do tipo Helvetica. Seletor universal *{} - A formatação atinge todos os elementos da págima. 
+
+	<p>Texto com o seletor de texto p na cor cinza. Seletor p{} usado para formatações gerais e atinge todos os comandos de parágrafo da página.</p>
+
+
+	<p class="red">Texto com a classe .red na cor vermelha. Seletor class .red{} para formatações específicas mas pode ser usado mais de uma vez ao longo da página. A formatação atinge todos os elementos que usam a class .red ou p.red{} que seleciona somente os elementos p que usam a class .red.</p>
+
+	<p id="blue">Texto com o ID #blue na cor azul. ID #blue{} para formatações específicas mas só deve ser usado uma vez por página. A formatação atinge apenas o elemento que usa o ID #blue. </p>
+
+	<a href="">Link fora de li e sem formatação</a>
+	<li>
+		<a href="">Link filho de li recebe a formatação color: red e text-decoration: none do seletor li>a. No  seletor de filho li>a, a formatação atinge apenas os elementos a que forem diretamente filhos de li. Não atinge outros a da página*</a>;
+	</li>
+	<p></p>
+
+	<b>Bold fora de li e sem formatação de cor</b>
+	<li>
+		<b>Bold descendente de li recebe a formatação color: green do seletor li b. No seletor 	descentente li b, a formatação formatação atinge apenas os elementos b que forem descentes, diretos ou não, de li. Não atinge outros a da página</b>;
+	</li>
+
+	<p></p>
+
+	<h1>H1 da formatação do seletor irmão adjascente</h1>
+	<p>No seletor adjascente h1+p, a formatação color: orange atinge apenas o primeiro elemento p que vier diretamente após h1. Não atinge outros p da página</p>
+	<p>O segundo elemento p interno a outro elemento não recebe a mesma formatação do p anterior.</p>
+
+	<h2>H2 da formatação do seletor irmão geral</h1>
+	<p>No seletor adjascente h2~p, a formatação color: pink atinge qualquer elemento p que vier diretamente após h2. Não atinge outros p da página</p>
+	<p>O segundo elemento p interno a outro elemento recebe a mesma formatação do p anterior.</p>
+
+</body>
+</html>
