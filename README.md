@@ -30,3 +30,4 @@
 <li>Links (05/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/links.html</li> 
 <li>Navegação Vertical (09/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/navegacao_vertical.html</li> 
 <li>Navegação Horizontal (10/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/navegacao_horizontal.html</li> 
+<li>Imagens Líquidas (11/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/imagens_liquidas.html</li> 
