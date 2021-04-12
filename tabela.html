@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabela</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body {
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			font-size: 0.8em;
+		}
+
+		table {
+			width: 400px;
+			/* border-collapse. Opções: 
+			separate (deixa as células com um pequeno espaço);
+			collapse (deixa as células coladas) */
+			border-collapse: collapse;
+		}
+
+		th, td {
+			padding: 5px;
+		}
+
+		th {
+			text-transform: uppercase;
+			border-top: 1px solid #CCC;
+			border-bottom: 1px dotted #111;
+			background-color: #FA8072;
+			color: white;
+			text-align: left;
+			font-size: 0.8em;
+			letter-spacing: 0.1em;
+		}
+
+		tr td {
+			border: 1px solid white;
+		}
+
+		tr.par {
+			background: #fce8e0;
+		}
+
+		tr.impar {
+			background: white;
+		}
+
+		tr:hover {
+			background-color: #FFA07A;
+		}
+
+		.numero {
+			text-align: right;
+		}
+
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Título 1</th>
+			<th>Título 2</th>
+			<th>Título 3</th>
+		</tr>
+
+		<tr class="impar">
+			<td>L1C1</td>
+			<td>L1C2</td>
+			<td class="numero">L1N1</td>
+		</tr>
+
+		<tr class="par">
+			<td>L2C1</td>
+			<td>L2C2</td>
+			<td class="numero">L2N2</td>
+		</tr>
+
+		<tr class="impar">
+			<td>L3C1</td>
+			<td>L3C2</td>
+			<td class="numero">L3N3</td>
+		</tr>
+
+		<tr class="par">
+			<td>L4C1</td>
+			<td>L4C2</td>
+			<td class="numero">L4N4</td>
+		</tr>
+	</table>
+</body>
+</html>
