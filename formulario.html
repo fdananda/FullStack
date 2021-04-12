@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário 1</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body {
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			font-size: 0.8em;
+		}
+
+		fieldset {
+			padding: 1em;
+			margin: 1em 0;
+			border: 1px solid #FA8072;
+			background: #fce8e0;
+			width: 420px;
+		}
+
+		legend{
+			text-transform: uppercase;
+			color: white;
+			padding: 0.5em;
+			font-size: 0.9em;
+			font-weight: bold;
+			background: #FA8072;
+			border: 1px solid white;
+			letter-spacing: 0.1em;
+		}
+
+		label {
+			display: block;
+			cursor: pointer;
+		}
+		/* Seletor de atributo - disponível apenas em navegadores mais novos */
+		input[type="text"],[type="email"]  {
+			width: 20em;
+		}
+
+		.radio {
+			width: auto;
+			margin-right: 1em;
+		}
+		.submit, .reset  {
+			font-weight: bold;
+			 background: #FA8072;
+			width: auto;
+			margin-top: 10px;
+			display: inline;
+			padding: 0.5em;
+			border: 1px solid white;
+			color: white;
+			font-size: 0.9em;
+
+		}
+		textarea {
+			width: 80%;
+			height: 10em;
+		}
+
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Legenda área 1</legend>
+
+			<div>
+				<label for="nome">Input Text: </label>
+				<input type="text" name="nome" id="nome">
+			</div>
+
+			<div>
+				<label for="email">Input E-mail: </label>
+				<input type="email" name="email" id="email">
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Legenda área 2</legend>
+			<div>
+				<label for="mensagem">Textarea:</label>
+				<textarea name="mensagem" id="mensagem"></textarea>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Legenda área 3</legend>
+
+			<div>
+				<label>
+					<input type="radio" name="radio" id="opcao1" class="radio">Radio 1
+				</label>
+			</div>
+		
+			<div>
+				<label>
+					<input type="radio" name="radio" id="opcao2" class="radio">Radio 2
+				</label>
+			</div>
+
+			<div>
+				<input type="submit" name="Enviar" class="submit">
+				<input type="reset" name="Limpar" class="reset">
+				
+			</div>
+		</fieldset>
+	</form>
+
+</body>
+</html>
