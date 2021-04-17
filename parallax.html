@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Efeito Parallax</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		body, html {
+			margin: 0;
+			font: 18px sans-serif;
+			height: 100%;
+		}
+
+		.texto {
+			color: grey;
+			background: beige;
+			padding: 50px 80px;
+			text-align: center;
+		}
+
+		h3 {
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		/* Parallax */
+		.fundo1, .fundo2 {
+			height: 100%;
+			opacity: 0.5;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			position: relative;
+		}
+
+		.fundo1 {
+			background-image: url(imagens/fundo1.jpg);
+		}
+
+		.fundo2 {
+			background-image: url(imagens/fundo2.jpg);
+		}
+
+		.tag {
+			position: absolute;
+			left: 0;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+		}
+
+		.tag span.titulo {
+			font-family: "courier new";
+			color: #fff;
+			background-color: #000;
+			padding: 18px;
+			font-size: 20px;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="fundo1">
+		<div class="tag">
+			<span class="titulo">Título Imagem 1</span>
+		</div>
+	</div>
+	<div class="texto">
+		<h3>Parallax</h3>
+		<p>Texto descritivo entre imagens usando o efeito parallax</p>
+	</div>
+	<div class="fundo2">
+		<div class="tag">
+			<span class="titulo">Título Imagem 2</span>
+		</div>
+	</div>
+	
+</body>
+</html>
