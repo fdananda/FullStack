@@ -33,3 +33,5 @@
 <li>Imagens Líquidas (11/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/imagens_liquidas.html</li> 
 <li>Tabela (12/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/tabela.html</li> 
 <li>Formulário (12/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/formulario.html</li> 
+<li>Parallax (17/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/parallax.html</li> 
+<li>Fontes Customizadas (17/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/fontes_customizadas.html</li> 
