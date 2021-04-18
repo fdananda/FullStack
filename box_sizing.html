@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Sizing</title>
+	<meta charset="utf-8">
+
+	<!-- Nornmalize CSS -->
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+	<style type="text/css">
+
+		body{
+			font-family: sans-serif;
+			font-size: 14px;
+			color: white;
+		}
+
+		a, a:visited {
+			text-decoration: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		#box-sizing-exemplo1 {
+			width: 400px;
+			height: 250px;
+			background: #FA8072;
+			padding: 15px;
+			border: 1px solid gray;
+			margin: 20px auto;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		#box-sizing-exemplo2 {
+			width: 400px;
+			height: 250px;
+			background: #FA8072;
+			padding: 15px;
+			border: 1px solid gray;
+			margin: 20px auto;
+			-webkit-box-sizing: border-content;
+			-moz-box-sizing: border-content;
+			-webkit-box-sizing: border-content;
+			box-sizing: border-content;
+		}
+	</style>
+
+
+
+</head>
+<body>
+
+	<div id="box-sizing-exemplo1">
+		<h1>Box Sizing</h1>
+		<p>Define como a largura (width) e a altura (height) de um elemento são calculadas, com preenchimento, padding e bordas (border-box) ou não (content-box - default). Exemplo 1 usando o border-box e com largura de 400px, altura de 250 px e padding de 15px;</p>
+		<p>Fonte: <a href="https://www.w3schools.com/cssref/css3_pr_box-sizing.asp">https://www.w3schools.com/cssref/css3_pr_box-sizing.asp</a>
+	</div>
+
+	<div id="box-sizing-exemplo2">
+		<h1>Box Sizing</h1>
+		<p>Exemplo 2 usando o border-content e com largura de 400px, altura de 250 px e padding de 15px. Com esta definição, a caixa ultrapassa as medidas calculadas, sendo menos precisa para o layout.</p>
+	</div>
+</body>
+</html>
