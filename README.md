@@ -35,3 +35,6 @@
 <li>Formulário (12/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/formulario.html</li> 
 <li>Parallax (17/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/parallax.html</li> 
 <li>Fontes Customizadas (17/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/fontes_customizadas.html</li> 
+<li>Normalize CSS (18/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/normalize.html</li> 
+<li>Border Radius (18/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/border_radius.html</li> 
+<li>Box Sizing (18/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/box_sizing.html</li> 
