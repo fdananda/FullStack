@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shadows</title>
+	<meta charset="utf-8">
+
+	<!-- Nornmalize CSS -->
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+	<style type="text/css">
+
+		body{
+			padding: 15px;
+			font-family: sans-serif;
+			font-size: 14px;
+			color: black;
+			}
+
+		#container {
+			width: 400px;
+			height: 220px;
+			padding: 20px;
+			margin: 20px auto;
+			background: #FA8072;
+			/* primeiro valor determina o posicionamento e movimenta na horizontal;
+			   segundo  valor  determina o posicionamento e movimenta na vertical;
+			   primeiro valor negativo movimenta para a esquerda;
+			   primeiro valor positivo ou sem sinal movimenta para a direita;
+			   segundo  valor negativo movimenta para cima;
+			   segundi  valor positivo ou sem sinal movimenta para baixo
+			   terceiro valor define o borrado/blur
+			   quarto   valor define o tamanho/espalhamento da sombra
+			*/
+			box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.6);
+		}
+
+		h1 {
+			color: white;
+			text-shadow: 3px 3px black;
+		}
+
+		h2 {
+ 			 color: yellow;
+  			text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		}
+
+			
+	</style>
+
+</head>
+<body>
+
+	<div id="container">
+		<h1>Box-shadow e Text shadow</h1>
+		<h2>Uso do text-shadow para criação de borda ao redor do texto</h2>
+		<p>
+			Existem dois tipos de shadows/sombras. O box-shadow aplica sombra em elementos. Já o text-shadow aplica sombra ao texto. No exemplo acima, o efeito foi usado para criar uma linha ao redor do texto.
+
+		</p>
+	</div>
+
+
+</body>
+</html>
