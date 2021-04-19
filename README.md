@@ -38,3 +38,6 @@
 <li>Normalize CSS (18/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/normalize.html</li> 
 <li>Border Radius (18/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/border_radius.html</li> 
 <li>Box Sizing (18/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/box_sizing.html</li> 
+<li>Opacidade e Transparência (19/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/opacidade_transparencia.html</li> 
+<li>Gradients (19/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/gradients.html</li> 
+<li>Shadows (19/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/shadows.html</li> 
