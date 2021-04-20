@@ -41,3 +41,5 @@
 <li>Opacidade e Transparência (19/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/opacidade_transparencia.html</li> 
 <li>Gradients (19/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/gradients.html</li> 
 <li>Shadows (19/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/shadows.html</li> 
+<li>Animation (20/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/animation.html</li> 
+<li>Transitions (20/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/transitions.html</li> 
