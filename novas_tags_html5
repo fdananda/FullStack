@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Novas tags</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		body{
+			font-family: sans-serif;
+			color: grey;
+		}
+
+		header{
+			border: 1px solid #000;
+			background: #FFD700;
+			padding: 10px;
+			height: 50px;
+			line-height: 50px;
+		}
+
+		nav{
+			border: 1px solid black;
+			background: #F0E68C;
+			padding: 10px;
+			font-size: 0.9em;
+			float: left;
+			width:200px;
+			height:300px;
+		}
+
+		article{
+			border: 1px solid black;
+			background: #FFFFF0	;
+			padding: 10px;
+			font-size: 0.9em;
+			height:300px;
+		}
+
+		section{
+			border: 1px solid black;
+			background: #FFEBCD;
+			padding: 10px;
+			font-size: 0.9em;
+			margin: 10px;
+		}
+
+		time{
+			border: 1px solid black;
+			background: #D8BFD8;
+			padding: 10px;
+			font-size: 0.8em;
+		}
+
+		aside{
+			border: 1px solid black;
+			background: #B0E0E6;
+			padding: 10px;
+			font-size: 0.8em;
+			float: right;
+			width:200px;
+			height:300px;
+		}
+
+		footer{
+			border: 1px solid black;
+			background: #ccc;
+			padding: 10px;
+			font-size: 0.7em;
+			clear: both;
+		}
+
+		p {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<header>
+		<h1>Header - Para definir a área de cabeçalho</h1>
+	</header>
+	<nav>
+		Nav - Para definir a área de navegação
+	</nav>
+	<aside>
+		Aside - Para definir conteúdo lateral
+	</aside>
+
+
+	<article> Article - Para definir a área de conteúdos/textos
+		<section>
+			<p> Section - Para definir seções dentro da área de conteúdos/textos. </p>
+			<p> Time - Para definir datas: <time>21/04/2021</time></p>
+		</section>
+	</article>
+
+	
+	<footer>
+		<p>Footer - Para definir a área de rodapé</p>
+	</footer>
+
+</body>
+</html>
