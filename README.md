@@ -12,6 +12,7 @@
 <li>Tabelas (27/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/Tabelas</li>
 <li>Formulários (27/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/Formularios</li>
 <li>Caracteres Especiais (28/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/CaracteresEspeciais</li>
+<li>Novas Tags (21/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/novas_tags_html5</li>
 
 <h4>CSS 3.0</h4>
 <li>Inline Style (28/03/2021)<br>https://github.com/fdananda/FullStack/blob/main/InLineStyle</li>
