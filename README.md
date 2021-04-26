@@ -44,3 +44,5 @@
 <li>Shadows (19/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/shadows.html</li> 
 <li>Animation (20/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/animation.html</li> 
 <li>Transitions (20/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/transitions.html</li> 
+<li>Flexbox - Flex Container (26/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/flex_container.html</li> 
+<li>Flexbox - Flex Items (26/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/flex_items.html</li> 
