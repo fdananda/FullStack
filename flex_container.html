@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox - Flex Container</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		#container{
+			background: #ccc;
+			width: 300px;
+			height: 300px;
+			
+			display: flex;
+			/* display: flex - O container torna-se flexível ao definir a display como flex*/
+
+			flex-direction: row; 
+			/* flex-direction - define a direção de empilhamento do conteúdo. Propriedades:
+			   row - empilha os itens horizontalmente (um ao lado do outro); 
+			   row-reverse - empilha os itens horizontalmente (um ao lado do outro), mas com sentido invertido;
+			   column - empilha os itens verticalmente (um abaixo do outro); 
+			   colum-reserve - empilha os itens verticalmente (um abaixo do outro), com sentido invertido. */
+
+			 flex-wrap: wrap;
+			 /* flex-wrap - define agrupamentos/propriedades para quebras de layouts. Propriedades:  
+			    nowrap - não quebra a linha. Itens têm seu tamanho reduzidos para caber;
+			    wrap - permite a quebra de linha. Itens têm seu tamanho mantidos e são colocados na linha ou coluna seguinte;
+			    wrap-reverse - quebra a linha com sentido invertido. */
+
+			/* flex-flow - propriedade abreviada que define as propriedades flex-direction e flex-wrap.*/
+
+			justify-content: space-around;
+			 /* justify-content - justifica o conteúdo horizontalmente. Propriedades: 
+				flex-start - alinha no canto superior esquerdo. É o padrão;
+				flex-end -	alinha no canto superior direito;
+				center - centraliza horizontalmente;
+				space-between - distribui os itens horizontalmente, colando os itens inicial e final às extremidades
+				space-around - distribui os itens horizontalmente, sem colar os itens inicial e final às extremidades  */
+
+			align-items: flex-end;
+
+			/* align-items - justifica o conteúdo verticalmente. Propriedades: 
+				stretch - preenche toda a área para preencher a altura. É o padrão;
+				center - centraliza verticalmente;
+				flex-start - alinha na parte superior;
+				flex-end -	alinha na parte inferior;
+				baseline - alinhado pela parte superior do texto;
+				*/
+
+			align-content: space-around;
+			/* align-content - justifica as linhas. Propriedades: 
+				stretch - preenche toda a área para preencher a altura. É o padrão;
+				flex-start - alinha na parte superior. É o padrão;
+				flex-end -	alinha na parte inferior;
+				center - centraliza verticalmente;
+				space-between - distribui os itens verticalmente, colando os itens inicial e final às extremidades
+				space-around - distribui os itens verticalmente, sem colar os itens inicial e final às extremidades  */
+
+		}
+
+		.item {
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			background: white;
+			border: 1px solid grey;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div id="container">
+		<div class="item">1</div>
+		<div class="item">2</div>
+		<div class="item">3</div>
+		<div class="item">4</div>
+	</div>
+
+</body>
+</html>
