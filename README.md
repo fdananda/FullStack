@@ -49,3 +49,4 @@
 
 <h4>Bootstrap 4.1</h4>
 <li>Formatações de Textos (29/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/formatacoes_textos.html</li>
+<li>Alinhamentos de Textos (30/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/alinhamentos_textos.html</li>
