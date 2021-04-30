@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+     <style type="text/css">
+
+      body{
+        background: #ccc;
+        padding: 16px;
+      }
+
+      div {
+        width: 450px;
+        padding: 20px;
+        background: white;
+        border-radius: 20px;
+        margin-bottom: 20px;
+      }
+      
+    </style>
+
+    <title>Bootstrap - Alinhamentos de textos</title>
+  </head>
+  <body style="margin-bottom: 200px;padding: 16px;">
+
+    <div>
+        <!-- Alinhamentos  -->
+        <p class="text-right">Alinhamento à direita</p>
+        <p class="text-left">Alinhamento à esquerda</p>
+        <p class="text-center">Alinhamento centralizado</p>
+        <p class="text-justify">Alinhamento justificado</p>
+    </div>
+
+    <div style="width: 1200px;">
+        <!-- 
+            Alinhamento responsivo: class="text-<tela>-<alinhamento>"
+                + tela: sm (576px), md (768px), lg (992px), xl (1200px)
+                + alinhamento: left, center, right
+         -->
+        <p class="text-sm-right text-monospace">sm - tela &gt;= 576px</p>
+        <p class="text-md-right text-monospace">md - tela &gt;=  768px</p>
+        <p class="text-lg-right text-monospace">lg - tela &gt;= 992px</p>
+        <p class="text-xl-right text-monospace">xl - tela &gt;= 1200px</p>
+    </div>
+
+    <div>
+
+        <!-- d-inline - Converte elemento de block para inline -->
+        <p class="bg-success d-inline">d-inline - Converte elemento de block, como parágrafo, por exemplo, para inline</p>
+        <p>
+        <!-- d-block - Converte elemento de inline para block -->
+        <span class="bg-warning d-block">d-block - Converte elemento de inline, como span, por exemplo, para block</span>
+        <p>
+        <!-- d-inline-block - Converte para elemento híbrido do tipo inline-block -->
+        <span class="bg-info d-inline-block" style="width: 400px;">d-inline-block - Converte para elemento híbrido do tipo inline-block</span> 
+
+    </div>
+  </body>
+</html>
