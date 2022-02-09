@@ -23,7 +23,7 @@
 <li>Fontes (30/03/2021)<br>https://github.com/fdananda/WebFullStack/blob/main/Fontes</li> 
 <li>Background (01/04/2021)<br>https://github.com/fdananda/WebFullStack/blob/main/Background</li> 
 <li>CSS Externo (01/04/2021)<br>https://github.com/fdananda/WebFullStack/blob/main/CSSExterno</li> 
-<li>Espaçamentos (03/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/espacamentos.css</li> 
+<li>Espaçamentos - Margin e Padding (03/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/espacamentos.css</li> 
 <li>Elementos Flutuantes (03/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/elementos_flutuantes.html</li> 
 <li>Display (04/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/display.html</li> 
 <li>Posicionamentos (05/04/2021)<br>https://github.com/fdananda/web_fullstack/blob/main/posicionamentos.html</li> 
